@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'AutoSearchBar_Example' do
+  pod 'AutoSearchBar', :path => '../'
+
+  target 'AutoSearchBar_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
