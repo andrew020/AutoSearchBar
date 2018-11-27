@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/andrew/AutoSearchBar'
+  s.homepage         = 'https://github.com/andrew020/AutoSearchBar'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'andrew' => 'andrew2007@gmail.com' }
-  s.source           = { :git => 'https://github.com/andrew/AutoSearchBar.git', :tag => s.version.to_s }
+  s.author           = { 'andrew' => 'andrew2007@foxmail.com' }
+  s.source           = { :git => 'https://github.com/andrew020/AutoSearchBar.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
