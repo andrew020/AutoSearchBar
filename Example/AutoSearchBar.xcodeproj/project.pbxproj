@@ -15,6 +15,7 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		8E6E329021AD13B500B6DB88 /* OCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E6E328F21AD13B500B6DB88 /* OCViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,7 +31,7 @@
 /* Begin PBXFileReference section */
 		166CC403E5AF9F3E33C1DC7D /* Pods-AutoSearchBar_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutoSearchBar_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AutoSearchBar_Tests/Pods-AutoSearchBar_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		297BDF801B14236A5CA92D7C /* Pods-AutoSearchBar_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutoSearchBar_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-AutoSearchBar_Example/Pods-AutoSearchBar_Example.release.xcconfig"; sourceTree = "<group>"; };
-		53C4C50CBBE5A1CABD2B61C0 /* AutoSearchBar.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = AutoSearchBar.podspec; path = ../AutoSearchBar.podspec; sourceTree = "<group>"; };
+		53C4C50CBBE5A1CABD2B61C0 /* AutoSearchBar.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = AutoSearchBar.podspec; path = ../AutoSearchBar.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		607FACD01AFB9204008FA782 /* AutoSearchBar_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoSearchBar_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -41,12 +42,15 @@
 		607FACE51AFB9204008FA782 /* AutoSearchBar_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoSearchBar_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		754867AD8800C4B4766C986E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		754867AD8800C4B4766C986E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		8003DEE0B1270FB3532476E0 /* Pods_AutoSearchBar_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AutoSearchBar_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8843BA2D7A09A5BD078E617A /* Pods_AutoSearchBar_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AutoSearchBar_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E6E328D21AD13B500B6DB88 /* AutoSearchBar_Example-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AutoSearchBar_Example-Bridging-Header.h"; sourceTree = "<group>"; };
+		8E6E328E21AD13B500B6DB88 /* OCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCViewController.h; sourceTree = "<group>"; };
+		8E6E328F21AD13B500B6DB88 /* OCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCViewController.m; sourceTree = "<group>"; };
 		8FC61CF4B46FEFC3A360FCB2 /* Pods-AutoSearchBar_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutoSearchBar_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AutoSearchBar_Tests/Pods-AutoSearchBar_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		9958E8122E4A325DED74C17B /* Pods-AutoSearchBar_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutoSearchBar_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AutoSearchBar_Example/Pods-AutoSearchBar_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		CFB9B118D45DB60900F9B709 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		CFB9B118D45DB60900F9B709 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +123,9 @@
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
+				8E6E328E21AD13B500B6DB88 /* OCViewController.h */,
+				8E6E328F21AD13B500B6DB88 /* OCViewController.m */,
+				8E6E328D21AD13B500B6DB88 /* AutoSearchBar_Example-Bridging-Header.h */,
 			);
 			name = "Example for AutoSearchBar";
 			path = AutoSearchBar;
@@ -212,7 +219,7 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
+						LastSwiftMigration = 1010;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
@@ -336,6 +343,7 @@
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				8E6E329021AD13B500B6DB88 /* OCViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -481,11 +489,14 @@
 			baseConfigurationReference = 9958E8122E4A325DED74C17B /* Pods-AutoSearchBar_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = AutoSearchBar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AutoSearchBar/AutoSearchBar_Example-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 			};
@@ -496,11 +507,13 @@
 			baseConfigurationReference = 297BDF801B14236A5CA92D7C /* Pods-AutoSearchBar_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = AutoSearchBar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AutoSearchBar/AutoSearchBar_Example-Bridging-Header.h";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 			};

@@ -1,6 +1,6 @@
 import UIKit
 
-public extension UISearchBar {
+extension UISearchBar {
     
     // MARK: - Private
     // MARK: Properties
@@ -45,7 +45,7 @@ public extension UISearchBar {
     
     // MARK: Dely call
     
-    @objc func delyCall() -> Void {
+    @objc private func delyCall() -> Void {
         let selector = #selector(UISearchBarDelegate.searchBarSearchButtonClicked(_:))
         guard let delegate = self.delegate,
         delegate.responds(to: selector)
@@ -57,14 +57,14 @@ public extension UISearchBar {
     
     // MARK: - Public Method
     
-    public func cancelAutoSearch() -> Void {
+    @objc public func cancelAutoSearch() -> Void {
         if self.hasDelyCall ?? false {
             NSObject.cancelPreviousPerformRequests(withTarget: self, selector: #selector(delyCall), object: self)
             self.hasDelyCall = false
         }
     }
     
-    public func setAutoSearch(enable: Bool) -> Void {
+    @objc public func setAutoSearch(enable: Bool) -> Void {
         if self.isOpenAutoSearch != enable {
             self.isOpenAutoSearch = enable
         }

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'AutoSearchBar'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'A search bar will auto call UISearchBarDelegate.searchBarSearchButtonClicked(_:) after text changed.'
 
 # This description is used to generate tags and improve search results.
