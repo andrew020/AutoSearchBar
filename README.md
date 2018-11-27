@@ -22,7 +22,7 @@ pod 'AutoSearchBar'
 
 ## Author
 
-andrew, andrew2007@gmail.com
+andrew, andrew2007@foxmail.com
 
 ## License
 
