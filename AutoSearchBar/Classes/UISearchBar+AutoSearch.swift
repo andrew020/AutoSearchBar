@@ -52,6 +52,7 @@ extension UISearchBar {
         else {
             return;
         }
+        self.hasDelyCall = false
         delegate.perform(selector, with: self)
     }
     
